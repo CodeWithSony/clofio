@@ -1,0 +1,50 @@
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  border: 1px solid;
+  width: 92%;
+  font-size: 12px;
+  font-weight: 300;
+  border-collapse: collapse;
+  padding: 1rem;
+  height: 18vh;
+  border-radius: 13px !important;
+  text-align: left;
+  border: 9px;
+  margin-bottom: 0.8rem;
+}
+
+tr,
+th,
+td,
+thead {
+  /* padding: 0.7rem 0; */
+  padding: 0.5rem;
+  line-height: 1;
+  box-sizing: border-box;
+}
+.horizonalLine {
+  border-bottom: 1px solid black;
+  margin: 0 5rem;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.row {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 5px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+tr > th {
+  font-size: 15px;
+}

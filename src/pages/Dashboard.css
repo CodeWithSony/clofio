@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.mainContainer {
+  border: 1px solid black;
+  height: 96vh;
+  width: 97vw;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.navbarContainer {
+  width: 7vw;
+  border: 1px solid black;
+  height: 96vh;
+}
+
+.dashboardContainer {
+  width: calc(97vw - 7vw);
+  height: 96vh;
+  float: right;
+
+}

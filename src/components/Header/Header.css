@@ -1,0 +1,10 @@
+.headerContainer{
+    display: flex;
+    align-items: center;
+    max-height: 1vh;
+    justify-content: space-between;
+    font-family: verdana;
+    font-size: 12px;
+    padding: 1.5rem;
+    box-sizing: border-box;
+}

@@ -1,0 +1,40 @@
+.Navigation{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    justify-content: space-between;
+    background-color: #d1dfff;
+
+}
+.cloud{
+    margin-bottom: 0,7rem;
+    height: 3rem;
+
+}
+div>img{
+    padding: 0.4rem;
+    height: 2.2rem;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar>p{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    height: 15%;
+    background: #977dc4;
+    justify-content: center;
+    font-family: verdana;
+    border-radius: 62%;
+    padding: 1.2rem;
+
+}

@@ -1,0 +1,29 @@
+ .cardContainer{
+  height: 22vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .cards{
+  margin: 0 2rem;
+  font-family: verdana;
+  border: 1px solid black;
+  border-radius: 16px;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 16vh;
+  min-width: 19vw;
+   line-height: 1.5;
+ }
+ .blue{
+   background-color: #d4d4f3;
+ }
+ .green{
+   background-color: #dff0e5;
+
+ }
